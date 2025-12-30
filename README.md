@@ -43,6 +43,4 @@ graph TD
     B[Shop iOS App] <-->|REST / WebSocket| D
     C[Driver iOS App] <-->|REST / WebSocket| D
     D <--> E[(MySQL Database)]
-    F --> A
-    F --> B
-    F --> C
+ 
